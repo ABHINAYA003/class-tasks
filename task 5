@@ -1,4 +1,0 @@
-# Task 5: One's place digit
-number = int(input("Enter a number: "))
-ones_place = number % 10
-print(f"The digit at the one's place is {ones_place}")
