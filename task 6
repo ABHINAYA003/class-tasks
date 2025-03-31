@@ -1,7 +1,0 @@
-# Task 6: Memory location comparison using identity operators
-v1 = 7
-v2 = 8
-if v1 is v2:
-    print("Both variables point to the same memory location.")
-else:
-    print("The variables point to different memory locations.")
