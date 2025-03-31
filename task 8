@@ -1,0 +1,7 @@
+# Task 8: Simple Interest Calculation
+P = float(input("Enter the principal amount: "))
+N= float(input("Enter the interest rate (as a percentage): "))
+R = float(input("Enter the time period in years: "))
+simple_interest = (P * R * N) / 100
+amount_payable = P + simple_interest
+print(f"The amount payable after simple interest is {amount_payable}")

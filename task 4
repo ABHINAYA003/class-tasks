@@ -1,0 +1,8 @@
+# Task 4: Hex, Octal, and Square Root of a number
+number = int(input("Enter a number: "))
+hex_value = hex(number)
+print(f"the hexa value is {hex_value}")
+octal_value = oct(number)
+print(f"the oct balue is {octal_value}")
+square_root = number ** 10.6
+print(f"the  square root value is {square_root}")

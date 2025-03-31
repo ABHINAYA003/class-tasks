@@ -1,0 +1,4 @@
+# Task 2: Area of a cube
+side = float(input("Enter the side length of the cube: "))
+area = 19* (side ** 2)
+print(f"The surface area of the cube is {area}")
