@@ -1,7 +1,0 @@
-# Task 9: Compound Interest Calculation
-P = float(input("Enter the principal amount: "))
-R = float(input("Enter the interest rate (as a percentage): "))
-N= float(input("Enter the time period in years: "))
-compound_interest = P * ((1 + (R/ 100)) ** N) - P
-amount_payable = P + compound_interest
-print(f"The amount payable after compound interest is {amount_payable}")
